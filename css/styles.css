@@ -4,11 +4,15 @@
     --third-text-color: #ffffff;
     --fourth-text-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196f3;
+    --main-background-color: #ffffff;
+    --first-background-color: #f5f4fa;
+    --second-background-color: #2f303a;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
+    color: var(--first-text-color);
 }
 
 .list {
@@ -76,7 +80,7 @@ body {
 /* --------------HERO-------------- */
 
 .hero {
-    background-color: #2f303a;
+    background-color: var(--second-background-color);
 }
 
 .hero-item {
@@ -99,6 +103,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
+    cursor: pointer;
 }
 
 /* --------------BENEFITS-------------- */
@@ -133,7 +138,7 @@ body {
 /* --------------TEAM-------------- */
 
 .team {
-    background-color: #f5f4fa;
+    background-color: var(--first-background-color);
 }
 
 .team-title {
@@ -146,7 +151,7 @@ body {
 }
 
 .team-item {
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
 }
 
 .team-item-title {
@@ -169,7 +174,7 @@ body {
 /* --------------FOOTER-------------- */
 
 .footer {
-    background-color: #2f303a;
+    background-color: var(--second-background-color);
 }
 .footer-logo {
     font-family: Raleway;
