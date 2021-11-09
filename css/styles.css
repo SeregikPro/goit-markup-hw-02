@@ -195,3 +195,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--fourth-text-color);
 }
+
+.address-link:hover,
+.address-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);  
